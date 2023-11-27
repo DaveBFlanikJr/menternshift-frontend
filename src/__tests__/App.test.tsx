@@ -1,3 +1,4 @@
+// fell free to remove
 // to test components we need to import the App.tsx / testing library
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
