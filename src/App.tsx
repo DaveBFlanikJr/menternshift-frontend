@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./components/Header";
+import MentorProfile from "./pages/MentorProfile";
 
 function App() {
   return (
     <>
-      <Header/>
+      <MentorProfile />
     </>
   );
 }
