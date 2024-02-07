@@ -9,9 +9,10 @@ const MainContents = styled.main`
 
 const SideMenuContainer = styled.div`
   position: relative;
-  width: 25%;
+  width: 20%;
   float: left;
   height: 100%;
+  padding: 40px, 24px, 40px;
   background-color: #fbfbfb;
 `;
 
