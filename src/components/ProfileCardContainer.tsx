@@ -9,11 +9,26 @@ const ProfileCardContainer = styled.div`
   margin: 20px;
 `;
 
-const ProfileImage = styled.img`
-  width: 184px;
-  height: 184px;
-  border-radius: 50%;
+const ProfileImageContainer = styled.div`
+  position: relative;
+  width: 184px; // Width of the profile image
+  height: 184px; // Height of the profile image
   margin-right: 20px; // Space between image and text
+`;
+
+const ProfileImage = styled.img`
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+`;
+
+const UploadIcon = styled.img`
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom: -3px; // Increase to move the icon further down, decrease to move it up
+  right: 8px; // Increase to move the icon further right, decrease to move it left
+  cursor: pointer;
 `;
 
 const ProfileInfo = styled.div`
@@ -39,13 +54,14 @@ const ConnectButton = styled.button`
   background-color: #E57A17;
   color: #FFFFFF;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 10px 20px;
   font-weight: bold;
   margin-top: 10px; /* Space above the button */
   cursor: pointer;
   align-self: start;
   font-size: 14px;
+  font-weight: 600;
 `;
 
 const ProfileCard: React.FC<{ imageUrl: string; name: string; title: string }> = ({
@@ -55,7 +71,10 @@ const ProfileCard: React.FC<{ imageUrl: string; name: string; title: string }> =
 }) => {
   return (
     <ProfileCardContainer>
-      <ProfileImage src={imageUrl} alt={`${name}'s profile`} />
+      <ProfileImageContainer>
+        <ProfileImage src={imageUrl} alt={`${name}'s profile`} />
+        <UploadIcon src="src/assets/uploaduserimgicon.svg" alt="Upload" />
+      </ProfileImageContainer>
       <ProfileInfo>
         <ProfileName>{name}</ProfileName>
         <ProfileTitle>{title}</ProfileTitle>
