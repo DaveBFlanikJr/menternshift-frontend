@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import { AiOutlineSearch } from 'react-icons/ai';
-import { FiBell, FiUser } from 'react-icons/fi';
+import React, { useState } from "react";
+import styled from "styled-components";
+import { AiOutlineSearch } from "react-icons/ai";
+import { FiBell, FiUser } from "react-icons/fi";
 
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px 10px 20px;
+  padding: 1em 1em 1em 2em;
   background-color: #fff;
 `;
 
@@ -15,7 +15,7 @@ const SearchContainer = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  flex-grow: 1;
+  width: 180vh;
 `;
 
 const SearchIcon = styled(AiOutlineSearch)`
@@ -47,7 +47,7 @@ const Icon = styled.div`
 `;
 
 const Header: React.FC = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
@@ -55,11 +55,11 @@ const Header: React.FC = () => {
 
   const handleSearch = () => {
     // Implement the search logic here
-    console.log('Search by', searchTerm);
+    console.log("Search by", searchTerm);
   };
 
-  const handleKeyDown = (event:React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter") {
       handleSearch();
     }
   };
@@ -68,13 +68,7 @@ const Header: React.FC = () => {
     <HeaderContainer>
       <SearchContainer>
         <SearchIcon />
-        <SearchInput
-          type="text"
-          placeholder="Search by"
-          value={searchTerm}
-          onChange={handleSearchChange}
-          onKeyDown={handleKeyDown}
-        />
+        <SearchInput type="text" placeholder="Search by" value={searchTerm} onChange={handleSearchChange} onKeyDown={handleKeyDown} />
       </SearchContainer>
       <IconsContainer>
         <Icon as={FiBell} />
