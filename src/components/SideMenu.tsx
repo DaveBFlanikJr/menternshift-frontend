@@ -9,26 +9,30 @@ const StyledAside = styled.aside`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   list-style-type: none;
+  height: 100%;
+`;
+
+const StyledMenuItems = styled.div`
+  display: grid;
+  align-items: center;
+  padding: 10%;
 `;
 
 const SytledLogo = styled.h1`
-  display: flex;
-  align-items: center;
-  margin-bottom: 10vh;
+  margin-bottom: 20%;
 `;
 
 const ListItem = styled.li`
   display: flex;
   align-items: center;
-  margin-bottom: 5vh;
+  margin-bottom: 20%;
 `;
 
 const Icon = styled.div`
-  width: 24px; /* Adjust the icon size as needed */
-  height: 24px;
-  margin-right: 8px; /* Adjust margin as needed */
+  width: 12%; /* Adjust the icon size as needed */
+  height: 12%;
+  margin-right: 10%; /* Adjust margin as needed */
 `;
 
 const MenuItems = styled.a`
@@ -39,7 +43,7 @@ const MenuItems = styled.a`
 const SideMenu: React.FC = () => {
   return (
     <StyledAside>
-      <div>
+      <StyledMenuItems>
         <SytledLogo>
           <img src={menternshiftlogo} alt="Menternshift Logo" />
         </SytledLogo>
@@ -57,7 +61,7 @@ const SideMenu: React.FC = () => {
           <Icon as={GrProjects} />
           <MenuItems href="https://www.google.com">Projects</MenuItems>
         </ListItem>
-      </div>
+      </StyledMenuItems>
     </StyledAside>
   );
 };
