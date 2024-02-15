@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ProfileCardContainer = styled.div`
-  background-color: #FFFFFF; /* Light grey background */
+  background-color: #ffffff; /* Light grey background */
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -39,20 +39,20 @@ const ProfileInfo = styled.div`
 
 const ProfileName = styled.h3`
   margin: 0;
-  color: #1F2937; /* Dark grey color for text */
+  color: #1f2937; /* Dark grey color for text */
   font-size: 32px;
   font-weight: 700;
 `;
 
 const ProfileTitle = styled.p`
-  color: #4B5563; /* Slightly lighter grey for the subtitle */
+  color: #4b5563; /* Slightly lighter grey for the subtitle */
   font-size: 18px; /* Adjust as needed */
   font-weight: 600;
 `;
 
 const ConnectButton = styled.button`
-  background-color: #E57A17;
-  color: #FFFFFF;
+  background-color: #e57a17;
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   padding: 10px 20px;
@@ -64,11 +64,7 @@ const ConnectButton = styled.button`
   font-weight: 600;
 `;
 
-const ProfileCard: React.FC<{ imageUrl: string; name: string; title: string }> = ({
-  imageUrl,
-  name,
-  title,
-}) => {
+const ProfileCard: React.FC<{ imageUrl: string; name: string; title: string }> = ({ imageUrl, name, title }) => {
   return (
     <ProfileCardContainer>
       <ProfileImageContainer>

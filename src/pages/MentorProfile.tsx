@@ -2,44 +2,60 @@ import React from "react";
 import Header from "../components/Header";
 import SideMenu from "../components/SideMenu";
 import ProfileCard from "../components/ProfileCardContainer";
-import userprofileimg from "../assets/userprofileimg.svg" // Placeholder image from assets. Image should be fetched from backend
+import userprofileimg from "../assets/userprofileimg.svg"; // Placeholder image from assets. Image should be fetched from backend
 import styled from "styled-components";
 
-const MainContents = styled.main`
+const LayoutContainer = styled.div`
   display: flex;
 `;
 
 const SideMenuContainer = styled.div`
-  position: relative;
   width: 25%;
-  float: left;
-  height: 100%;
+  height: 100vh;
   background-color: #fbfbfb;
 `;
 
-const HeaderContainer = styled.div`
-  position: relative;
+const ContentContainer = styled.div`
   width: 75%;
-  float: left;
-  height: 100%;
+  height: 100vh;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column; // Stack header and profile card vertically
+`;
+
+const HeaderContainer = styled.div`
+  background-color: #ffffff;
+`;
+
+const ProfileCardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; // Align the profile card to the top
+  padding-left: 20px;
+  margin-top: 20px;
 `;
 
 const MentorProfile: React.FC = () => {
   return (
-    <MainContents>
+    <LayoutContainer>
       <SideMenuContainer>
         <SideMenu />
       </SideMenuContainer>
-      <HeaderContainer>
-        <Header />
+
+      <ContentContainer>
+        <HeaderContainer>
+          <Header />
+        </HeaderContainer>
+
+        <ProfileCardContainer>
           <ProfileCard
-          imageUrl={userprofileimg} // Image url should come from a fetch req to backend
-          name={"Jane Doe"} // Name should should come from a fetch req to backend
-          title={"Lead UX Designer at ProGuidance"} // Title should come from a fetch req to backend
+            imageUrl={userprofileimg} // Image url should come from a fetch req to backend
+            name={"Jane Doe"} // Name should should come from a fetch req to backend
+            title={"Lead UX Designer at ProGuidance"} // Title should come from a fetch req to backend
           />
-      </HeaderContainer>
-    </MainContents>
+        </ProfileCardContainer>
+      </ContentContainer>
+    </LayoutContainer>
   );
 };
 

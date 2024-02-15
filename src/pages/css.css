@@ -17,8 +17,7 @@ top: 0px;
 
 Neutrals
 */
-background: #FBFBFB;
-
+background: #fbfbfb;
 
 /* Frame 2608860 */
 
@@ -32,24 +31,20 @@ gap: 64px;
 width: 194px;
 height: 253px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* Logo */
 
 width: 174px;
 height: 28px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* Group 11814 */
 
@@ -59,8 +54,6 @@ height: 14px;
 left: 37.73px;
 top: 9.61px;
 
-
-
 /* Group 11811 */
 
 position: absolute;
@@ -68,8 +61,6 @@ width: 49.23px;
 height: 14px;
 left: 122.5px;
 top: 9.61px;
-
-
 
 /* Vector */
 
@@ -80,8 +71,7 @@ left: 122.5px;
 top: 9.61px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Vector */
 
@@ -92,8 +82,7 @@ left: 162.55px;
 top: 10.7px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Vector */
 
@@ -104,8 +93,7 @@ left: 154.12px;
 top: 9.61px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Vector */
 
@@ -116,8 +104,7 @@ left: 135.14px;
 top: 9.91px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Vector */
 
@@ -128,8 +115,7 @@ left: 146.64px;
 top: 13.84px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Vector */
 
@@ -140,8 +126,7 @@ left: 150.12px;
 top: 10.49px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Group 11810 */
 
@@ -150,8 +135,6 @@ width: 81.66px;
 height: 13.7px;
 left: 37.73px;
 top: 9.9px;
-
-
 
 /* Vector */
 
@@ -162,8 +145,7 @@ left: 109.06px;
 top: 13.54px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Vector */
 
@@ -174,8 +156,7 @@ left: 100.06px;
 top: 13.54px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Vector */
 
@@ -186,8 +167,7 @@ left: 87.44px;
 top: 13.54px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Vector */
 
@@ -198,8 +178,7 @@ left: 77.39px;
 top: 10.69px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Vector */
 
@@ -210,8 +189,7 @@ left: 65.88px;
 top: 13.54px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Vector */
 
@@ -222,8 +200,7 @@ left: 53.25px;
 top: 13.54px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Vector */
 
@@ -234,8 +211,7 @@ left: 37.73px;
 top: 9.9px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* Group 11815 */
 
@@ -244,8 +220,6 @@ width: 32px;
 height: 26px;
 left: 0px;
 top: 1px;
-
-
 
 /* M */
 
@@ -256,8 +230,7 @@ left: 8.87px;
 top: 10.57px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
-
+background: #e57a17;
 
 /* { */
 
@@ -268,8 +241,7 @@ left: 0px;
 top: 6.99px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* _ */
 
@@ -280,8 +252,7 @@ left: 8.87px;
 top: 24.48px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* } */
 
@@ -292,8 +263,7 @@ left: 24.24px;
 top: 6.99px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Group 11775 */
 
@@ -303,8 +273,6 @@ height: 8.32px;
 left: 11.27px;
 top: 1px;
 
-
-
 /* Union */
 
 position: absolute;
@@ -314,10 +282,9 @@ left: 11.27px;
 top: 1px;
 
 /* Primary/Primary (neutral) */
-background: #E57A17;
+background: #e57a17;
 /* Primary/Primary (neutral) */
-border: 0.5px solid #E57A17;
-
+border: 0.5px solid #e57a17;
 
 /* Group 11774 */
 
@@ -326,8 +293,6 @@ width: 4.69px;
 height: 7.19px;
 left: 16.04px;
 top: 2.13px;
-
-
 
 /* Union */
 
@@ -338,10 +303,9 @@ left: 16.04px;
 top: 2.13px;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
+background: #1f2937;
 /* Neutrals/Dark 2 */
-border: 0.5px solid #1F2937;
-
+border: 0.5px solid #1f2937;
 
 /* Frame 2608859 */
 
@@ -355,12 +319,10 @@ gap: 16px;
 width: 194px;
 height: 161px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
-
 
 /* Sidebar */
 
@@ -380,7 +342,6 @@ border-radius: 6px;
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* Frame 11784 */
 
@@ -394,24 +355,20 @@ gap: 15px;
 width: 91px;
 height: 27px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* account_24px */
 
 width: 24px;
 height: 24px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* Vector */
 
@@ -422,8 +379,7 @@ top: 8.33%;
 bottom: 8.33%;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Path */
 
@@ -433,8 +389,7 @@ right: 8.33%;
 top: 8.33%;
 bottom: 8.33%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -444,8 +399,7 @@ right: 37.5%;
 top: 20.83%;
 bottom: 54.17%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -455,20 +409,17 @@ right: 25%;
 top: 53.75%;
 bottom: 20%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Nav */
 
 width: 52px;
 height: 27px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
-
 
 /* Profile */
 
@@ -482,7 +433,7 @@ bottom: 0%;
 
 body text (semi bold)
 */
-font-family: 'Lato';
+font-family: "Lato";
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -490,9 +441,7 @@ line-height: 150%;
 /* identical to box height, or 27px */
 
 /* Neutrals/Dark 2 */
-color: #1F2937;
-
-
+color: #1f2937;
 
 /* Sidebar */
 
@@ -513,7 +462,6 @@ flex: none;
 order: 1;
 flex-grow: 0;
 
-
 /* Frame 11787 */
 
 /* Auto layout */
@@ -526,24 +474,20 @@ gap: 14px;
 width: 136px;
 height: 27px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* supervised_user_circle_24px */
 
 width: 24px;
 height: 24px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* Vector */
 
@@ -554,8 +498,7 @@ top: 8.33%;
 bottom: 8.33%;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Path */
 
@@ -565,8 +508,7 @@ right: 8.33%;
 top: 8.33%;
 bottom: 8.33%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -576,8 +518,7 @@ right: 26.92%;
 top: 34.75%;
 bottom: 49.17%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -587,8 +528,7 @@ right: 50.13%;
 top: 28.17%;
 bottom: 52.17%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -598,8 +538,7 @@ right: 52.05%;
 top: 54.13%;
 bottom: 18.17%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -609,20 +548,17 @@ right: 18.95%;
 top: 57.33%;
 bottom: 16.67%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Nav */
 
 width: 98px;
 height: 27px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
-
 
 /* My Mentors */
 
@@ -636,7 +572,7 @@ bottom: 0%;
 
 body text (semi bold)
 */
-font-family: 'Lato';
+font-family: "Lato";
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -644,9 +580,7 @@ line-height: 150%;
 /* identical to box height, or 27px */
 
 /* Neutrals/Dark 2 */
-color: #1F2937;
-
-
+color: #1f2937;
 
 /* Sidebar */
 
@@ -667,7 +601,6 @@ flex: none;
 order: 2;
 flex-grow: 0;
 
-
 /* Frame 11790 */
 
 /* Auto layout */
@@ -680,24 +613,20 @@ gap: 14px;
 width: 103px;
 height: 27px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* dashboard_24px */
 
 width: 24px;
 height: 24px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 /* Vector */
 
@@ -708,8 +637,7 @@ top: 12.5%;
 bottom: 12.5%;
 
 /* Neutrals/Dark 2 */
-background: #1F2937;
-
+background: #1f2937;
 
 /* Path */
 
@@ -719,8 +647,7 @@ right: 54.17%;
 top: 12.5%;
 bottom: 45.83%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -730,8 +657,7 @@ right: 54.17%;
 top: 62.5%;
 bottom: 12.5%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -741,8 +667,7 @@ right: 12.5%;
 top: 45.83%;
 bottom: 12.5%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Path */
 
@@ -752,20 +677,17 @@ right: 12.5%;
 top: 12.5%;
 bottom: 62.5%;
 
-background: #DADADA;
-
+background: #dadada;
 
 /* Nav */
 
 width: 65px;
 height: 27px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
-
 
 /* Projects */
 
@@ -779,7 +701,7 @@ bottom: 0%;
 
 body text (semi bold)
 */
-font-family: 'Lato';
+font-family: "Lato";
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -787,4 +709,4 @@ line-height: 150%;
 /* identical to box height, or 27px */
 
 /* Neutrals/Dark 2 */
-color: #1F2937;
+color: #1f2937;
