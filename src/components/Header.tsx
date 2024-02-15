@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { AiOutlineSearch } from "react-icons/ai";
-import { FiBell, FiUser } from "react-icons/fi";
+import { FaRegCircleUser } from "react-icons/fa6";
+import { PiBellBold } from "react-icons/pi";
 
 const HeaderContainer = styled.header`
   display: flex;
@@ -16,6 +17,7 @@ const SearchContainer = styled.div`
   align-items: center;
   position: relative;
   flex-grow: 1;
+  margin-left: 20px;
 `;
 
 const SearchIcon = styled(AiOutlineSearch)`
@@ -30,7 +32,7 @@ const SearchInput = styled.input`
   padding: 8px 8px 8px 35px; /* left padding to make room for the icon */
   border: 1px solid #ddd;
   border-radius: 4px;
-  width: 100%; /* Full width of the parent container */
+  width: 50%; /* Half width of the parent container */
   box-sizing: border-box; /* To include padding in the width */
 `;
 
@@ -71,8 +73,8 @@ const Header: React.FC = () => {
         <SearchInput type="text" placeholder="Search by" value={searchTerm} onChange={handleSearchChange} onKeyDown={handleKeyDown} />
       </SearchContainer>
       <IconsContainer>
-        <Icon as={FiBell} />
-        <Icon as={FiUser} />
+        <Icon as={PiBellBold} />
+        <Icon as={FaRegCircleUser} />
         {/* You can add more icons as needed */}
       </IconsContainer>
     </HeaderContainer>
