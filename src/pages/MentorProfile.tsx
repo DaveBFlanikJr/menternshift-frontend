@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import SideMenu from "../components/SideMenu";
-import ProfileCard from "../components/ProfileCardContainer";
+import ProfileCard from "../components/ProfileCard";
 import userprofileimg from "../assets/userprofileimg.svg"; // Placeholder image from assets. Image should be fetched from backend
 import styled from "styled-components";
 
@@ -27,7 +27,7 @@ const HeaderContainer = styled.div`
   background-color: #ffffff;
 `;
 
-const ProfileCardContainer = styled.div`
+const ProfileLayoutContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start; // Align the profile card to the top
@@ -47,13 +47,13 @@ const MentorProfile: React.FC = () => {
           <Header />
         </HeaderContainer>
 
-        <ProfileCardContainer>
+        <ProfileLayoutContainer>
           <ProfileCard
             imageUrl={userprofileimg} // Image url should come from a fetch req to backend
             name={"Jane Doe"} // Name should should come from a fetch req to backend
             title={"Lead UX Designer at ProGuidance"} // Title should come from a fetch req to backend
           />
-        </ProfileCardContainer>
+        </ProfileLayoutContainer>
       </ContentContainer>
     </LayoutContainer>
   );

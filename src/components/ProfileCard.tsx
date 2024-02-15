@@ -31,7 +31,7 @@ const UploadIcon = styled.img`
   cursor: pointer;
 `;
 
-const ProfileInfo = styled.div`
+const ProfileInfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1; /* Ensure it fills the available space to align the button right */
@@ -71,11 +71,12 @@ const ProfileCard: React.FC<{ imageUrl: string; name: string; title: string }> =
         <ProfileImage src={imageUrl} alt={`${name}'s profile`} />
         <UploadIcon src="src/assets/uploaduserimgicon.svg" alt="Upload" />
       </ProfileImageContainer>
-      <ProfileInfo>
+
+      <ProfileInfoContainer>
         <ProfileName>{name}</ProfileName>
         <ProfileTitle>{title}</ProfileTitle>
         <ConnectButton>Connect</ConnectButton>
-      </ProfileInfo>
+      </ProfileInfoContainer>
     </ProfileCardContainer>
   );
 };
