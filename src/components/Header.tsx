@@ -58,6 +58,7 @@ const Header: React.FC = () => {
   const handleSearch = () => {
     // Implement the search logic here
     console.log("Search by", searchTerm);
+    setSearchTerm("");
   };
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
