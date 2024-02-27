@@ -55,7 +55,7 @@ const MentorProfile: React.FC = () => {
             title={"Lead UX Designer at ProGuidance"} // Title should come from a fetch req to backend
           />
 
-        <Tabs/>
+          <Tabs />
         </ProfileLayoutContainer>
       </ContentContainer>
     </LayoutContainer>

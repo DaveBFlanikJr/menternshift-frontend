@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const TabContainer = styled.div`
   display: flex;
+  margin-left: 40px;
 `;
 interface TabProps {
   active: boolean;
@@ -14,17 +15,17 @@ const Tab = styled.button<TabProps>`
   outline: none;
   cursor: pointer;
   border-bottom: 2px solid transparent;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  font-weight: bold;
   ${({ active }) =>
     active &&
     `
         border-color: #e57a17;
-        font-weight: bold;  
     `}
 `;
 
 const ContentContainer = styled.div`
-  /* Styles for your tab content */
+  margin-left: 40px;
 `;
 
 const Tabs = () => {
@@ -42,11 +43,11 @@ const Tabs = () => {
       </TabContainer>
 
       <ContentContainer>
-        {activeTab === 'overview' && <div>Overview content goes here</div>}
-        {activeTab === 'reviews' && <div>Reviews content goes here</div>}
+        {activeTab === "overview" && <div>Overview content goes here</div>}
+        {activeTab === "reviews" && <div>Reviews content goes here</div>}
       </ContentContainer>
     </>
   );
 };
 
-export default Tabs
+export default Tabs;
