@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const TabContainer = styled.div`
   display: flex;
-  border-bottom: 1px solid #ccc;
 `;
 interface TabProps {
   active: boolean;
@@ -15,10 +14,11 @@ const Tab = styled.button<TabProps>`
   outline: none;
   cursor: pointer;
   border-bottom: 2px solid transparent;
+  background-color: #FFFFFF;
   ${({ active }) =>
     active &&
     `
-        border-color: #000;
+        border-color: #e57a17;
         font-weight: bold;  
     `}
 `;
