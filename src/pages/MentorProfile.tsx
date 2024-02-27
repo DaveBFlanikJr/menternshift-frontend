@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import SideMenu from "../components/SideMenu";
 import ProfileCard from "../components/ProfileCard";
+import Tabs from "../components/Tab";
 import userprofileimg from "../assets/userprofileimg.svg"; // Placeholder image from assets. Image should be fetched from backend
 import styled from "styled-components";
 
@@ -53,6 +54,8 @@ const MentorProfile: React.FC = () => {
             name={"Jane Doe"} // Name should should come from a fetch req to backend
             title={"Lead UX Designer at ProGuidance"} // Title should come from a fetch req to backend
           />
+
+        <Tabs/>
         </ProfileLayoutContainer>
       </ContentContainer>
     </LayoutContainer>
