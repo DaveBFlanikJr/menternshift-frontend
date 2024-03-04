@@ -62,7 +62,7 @@ const ConnectButton = styled.button`
   align-self: start;
   font-size: 16px;
   font-weight: 600;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
 `;
 
 const ProfileCard: React.FC<{ imageUrl: string; name: string; title: string }> = ({ imageUrl, name, title }) => {
