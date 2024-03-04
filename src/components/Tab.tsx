@@ -18,6 +18,7 @@ const Tab = styled.button<TabProps>`
   border-bottom: 2px solid transparent;
   background-color: #ffffff;
   font-weight: bold;
+  font-family: "Lato", sans-serif;
   ${({ active }) =>
     active &&
     `
