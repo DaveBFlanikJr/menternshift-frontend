@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import OverviewContent from "./OverviewContent";
 
 const TabContainer = styled.div`
   display: flex;
@@ -43,7 +44,7 @@ const Tabs = () => {
       </TabContainer>
 
       <ContentContainer>
-        {activeTab === "overview" && <div>Overview content goes here</div>}
+        {activeTab === "overview" && <OverviewContent />}
         {activeTab === "reviews" && <div>Reviews content goes here</div>}
       </ContentContainer>
     </>
