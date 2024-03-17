@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Badge from "./Badge";
 
 const OverviewWrapper = styled.div`
-  padding: 20px.;
+  padding-top: 1rem;
 `;
 
 const Paragraph = styled.p`
