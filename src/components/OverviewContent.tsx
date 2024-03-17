@@ -6,7 +6,7 @@ const OverviewWrapper = styled.div`
 `;
 
 const Paragraph = styled.p`
-  font-family: "Lato", san-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 20px;
