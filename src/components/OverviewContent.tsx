@@ -3,6 +3,7 @@ import Badge from "./Badge";
 
 const OverviewWrapper = styled.div`
   padding-top: 1rem;
+  padding-bottom: 5rem;
 `;
 
 const Paragraph = styled.p`
@@ -10,11 +11,12 @@ const Paragraph = styled.p`
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 20px;
+  max-width: 522px;
 `;
 
 const Section = styled.div`
   display: flex;
-  align-items: center
+  align-items: flex-start
   margin-bottom: 20px; // Spacing between each section
 `;
 
@@ -22,8 +24,9 @@ const SectionTitle = styled.h3`
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  margin-right: 10px; // Adjust as needed
+  margin-right: 120px; // Adjust as needed
   color: #333;
+  width: 100px;
 `;
 
 const BadgeContainer = styled.div`
@@ -31,6 +34,10 @@ const BadgeContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: flex-start;
+  flex-grow: 1;
+  min-width: 0;
+  max-width: 500px;
 `;
 
 const OverviewContent: React.FC = () => {
