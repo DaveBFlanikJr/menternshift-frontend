@@ -26,4 +26,4 @@ CMD ["npm", "run", "preview"]
 # docker build -t menternshift-frontend .
 
 #To run the container, use the command:
-#docker run -p 3000:3000 myapp
+#docker run -p 3000:3000 menternshift-frontend
