@@ -1,9 +1,10 @@
 import "./App.css";
+import MentorProfile from "./pages/MentorProfile";
 
 function App() {
   return (
     <>
-      <h1>Hello Menternshift!</h1>
+      <MentorProfile />
     </>
   );
 }
